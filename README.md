@@ -41,12 +41,19 @@ DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost,testserver
 
 # Database config
 DATABASE_ENGINE=postgresql
+
 DATABASE_NAME=codeleap_db
+
 DATABASE_USERNAME=codeleap_user
+
 DATABASE_PASSWORD=sua_senha_aqui
+
 DATABASE_HOST=localhost
+
 DATABASE_PORT=5432
+
 DATABASE_USERPASSWORD=senha_do_postgres_admin
+
 5. Configure o PostgreSQL
 Certifique-se de que o PostgreSQL está rodando e crie o banco de dados:
 bash# Usando o comando customizado do Django
@@ -79,12 +86,6 @@ Este script irá:
 🎨 Apresentar resultados com cores (Pass ✅, Fail ❌, Error 💥)
 📄 Criar relatório HTML em htmlcov/index.html
 
-Ver Relatório de Cobertura
-bash# Visualizar no terminal
-coverage report
-
-# Gerar e abrir relatório HTML
-coverage html
 # Abra o arquivo htmlcov/index.html no navegador
 🗂️ Reset do Banco de Dados (Desenvolvimento)
 Para resetar completamente o banco de dados em desenvolvimento:
